@@ -11,7 +11,7 @@ import SwiftUI
 struct CleanNavigationStudyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationSelector()
         }
     }
 }
