@@ -35,7 +35,7 @@ struct NavigationSelector: View {
     private func navigationView(for navigationCase: NavigationsSupported) -> some View {
         switch navigationCase {
         case .NaiveRouterNavigation:
-            LaunchView()
+            NaiveNavigationWithRouterLaunchView()
         case .simpleNavigationStack:
             SimpleNavigationPathBased()
         }
